@@ -17,9 +17,7 @@
         </header>
         <!-- audio and custom controls go here -->
         <section class="audio">
-            <audio data-trackref="Albatroz" src="audio/Albatroz.mp3"></audio>
-            <audio data-trackref="Companion" src="audio/Companion.mp3"></audio>
-            <audio data-trackref="STP_ILS" src="audio/STP_ILS.mp3"></audio>
+            <audio src="audio/Albatroz.mp3"></audio>
 
             <!-- now add some images for each audio selection -->
             <div>
@@ -30,7 +28,13 @@
             </div>
             <div>
                 <img data-trackref="STP_ILS" src="images/wmm.jpeg" alt="Wide Mouth Mason" class="placeholder">
-            </div>        
+            </div>
+            
+            <section class="controls">
+                <button id="pauseButton">Pause</button>
+                <button id="rewindButton">Rewind</button>
+                <button id="playButton">Play</button>
+            </section>
         </section>
     </main>
     <script src="js/main.js"></script>
